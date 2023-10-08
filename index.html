@@ -72,14 +72,14 @@
           <div class="hero-content-container">
             <div class="hero-title-container">
               <h1 class="hero-title">Create Your Interior Design.</h1>
-              <h2 class="hero-subtitle">Modern Interior</h2>
+              <h2 class="hero-subtitle caption">Modern Interior</h2>
             </div>
             <p class="hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation.
             </p>
-            <button class="hero-button" type="button">Contact</button>
+            <button class="hero-button button" type="button">Contact</button>
           </div>
           <div class="hero-img-container">
             <div class="hero-element"></div>
@@ -94,32 +94,67 @@
         </div>
       </section>
 
-      <section>
-        <div class="container">
-          <p>What we do</p>
-          <h2>Our Service</h2>
-          <ul>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
+      <!-- Second-section-our-service -->
+
+      <section class="our-service">
+        <div class="container our-service-container">
+          <p class="our-service-label caption">What we do</p>
+          <h2 class="our-service-title">Our Service</h2>
+          <ul class="our-service-button-list">
+            <li class="our-service-button-item">
+              <button class="our-service-button" type="button">
+                <svg class="our-service-button-icon" width="6" height="12">
+                  <use href="./images/icons.svg#icon-left"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="our-service-button-item">
+              <button class="our-service-button" type="button">
+                <svg class="our-service-button-icon" width="6" height="12">
+                  <use href="./images/icons.svg#icon-right"></use>
+                </svg>
+              </button>
+            </li>
           </ul>
-          <ul>
-            <li>
-              <h3>Interior design</h3>
-              <p>
+          <ul class="our-service-list">
+            <li class="our-service-item">
+              <img
+                class="our-service-img"
+                src="./images/design.png"
+                alt=""
+                width="25"
+                height="24"
+              />
+              <h3 class="our-service-subtitle">Interior design</h3>
+              <p class="our-service-text">
                 Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
                 tempor incididunt ut labore.
               </p>
             </li>
-            <li>
-              <h3>Architecture</h3>
-              <p>
+            <li class="our-service-item">
+              <img
+                class="our-service-img"
+                src="./images/architecture.png"
+                alt=""
+                width="25"
+                height="24"
+              />
+              <h3 class="our-service-subtitle">Architecture</h3>
+              <p class="our-service-text">
                 Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
                 tempor incididunt ut labore.
               </p>
             </li>
-            <li>
-              <h3>Planning</h3>
-              <p>
+            <li class="our-service-item">
+              <img
+                class="our-service-img"
+                src="./images/planning.png"
+                alt=""
+                width="25"
+                height="24"
+              />
+              <h3 class="our-service-subtitle">Planning</h3>
+              <p class="our-service-text">
                 Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
                 tempor incididunt ut labore.
               </p>
@@ -127,63 +162,109 @@
           </ul>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <img
-            src="./images/img2.jpg"
-            alt="sofa and table"
-            width="426"
-            height="454"
-          />
-          <p>About us</p>
-          <h2>Interioris The Will of An Epoch Mextreo</h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form injected humour,
-            or randomised words which don't look even slightly believable.If you
-            are going to use a passage of Lorem Ipsum, sure there isn't anything
-            embarrassing hidden the middleof text. All the Lorem Ipsum
-            generators on the Internettend to repeat predefined chunks as
-            necessary,making this the first true generator on the Internet.
-          </p>
-          <button type="button">Learn more</button>
+
+      <!-- Third-section-about-us -->
+
+      <section class="about-us">
+        <div class="container about-us-container">
+          <div class="about-us-img-container">
+            <div class="about-us-element"></div>
+            <img
+              class="about-us-img"
+              src="./images/img2.jpg"
+              alt="sofa and table"
+              width="426"
+              height="454"
+            />
+          </div>
+          <div class="about-us-content">
+            <p class="about-us-label caption">About us</p>
+            <h2 class="about-us-title">
+              Interioris The Will of An Epoch Mextreo
+            </h2>
+            <p class="about-us-text">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form injected
+              humour, or randomised words which don't look even slightly
+              believable.If you are going to use a passage of Lorem Ipsum, sure
+              there isn't anything embarrassing hidden the middleof text. All
+              the Lorem Ipsum generators on the Internettend to repeat
+              predefined chunks as necessary,making this the first true
+              generator on the Internet.
+            </p>
+            <button class="about-us-button button" type="button">
+              Learn more
+            </button>
+          </div>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <img
-            src="./images/20.png"
-            alt="Twenty years"
-            width="191"
-            height="132"
-          />
-          <h2>Years Of Successful Working The Market</h2>
-          <button type="button">Read more</button>
+
+      <!-- Fourth-section- -->
+
+      <section class="fs-section">
+        <div class="container fs-container">
+          <div class="fs-content">
+            <img
+              class="fs-twenty"
+              src="./images/20.png"
+              alt="Twenty years"
+              width="191"
+              height="132"
+            />
+            <h2 class="fs-title">
+              Years Of Successful Working<br />The Market
+            </h2>
+            <button class="fs-button button" type="button">Read more</button>
+          </div>
+          <div class="fs-img-container">
+            <div class="fs-element"></div>
+            <img
+              class="fs-img"
+              src="./images/img3.jpg"
+              alt="Shelves"
+              width="426"
+              height="454"
+            />
+          </div>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <h2>3000+ Completed Work Which WE have Successfully Done</h2>
-          <ul>
-            <li>
-              <h3>980</h3>
-              <p>Project</p>
+
+      <!-- Fifth-section-success -->
+
+      <section class="success">
+        <div class="container success-container">
+          <h2 class="success-title">
+            3000+ Completed Work Which WE have Successfully Done
+          </h2>
+          <ul class="success-list">
+            <li class="success-item">
+              <div class="success-wrapper">
+                <h3 class="success-subtitle">980</h3>
+                <p class="success-text">Project</p>
+              </div>
             </li>
-            <li>
-              <h3>20 Happy Client</h3>
-              <p>Happy Client</p>
+            <li class="success-item">
+              <div class="success-wrapper">
+                <h3 class="success-subtitle">20</h3>
+                <p class="success-text">Happy Client</p>
+              </div>
             </li>
-            <li>
-              <h3>330</h3>
-              <p>Winners</p>
+            <li class="success-item">
+              <div class="success-wrapper">
+                <h3 class="success-subtitle">330</h3>
+                <p class="success-text">Winners</p>
+              </div>
             </li>
-            <li>
-              <h3>120</h3>
-              <p>Recoment</p>
+            <li class="success-item">
+              <div class="success-wrapper">
+                <h3 class="success-subtitle">120</h3>
+                <p class="success-text">Recoment</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+
       <section>
         <div class="container">
           <p>Testimonials</p>
