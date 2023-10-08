@@ -6,8 +6,15 @@
 <symbol id="icon-right" viewBox="0 0 20 32">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="5.8182" d="M2.909 2.909l11.636 13.091-11.636 13.091"></path>
 </symbol>
+<symbol id="icon-Vector1" viewBox="0 0 71 32">
+<path fill="none" stroke="#e0e0e0" style="stroke: var(--color1, #e0e0e0)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6531" d="M0 0.327h31.51v31.347h39.673"></path>
+</symbol>
+<symbol id="icon-Vector2" viewBox="0 0 72 32">
+<path fill="none" stroke="#e0e0e0" style="stroke: var(--color1, #e0e0e0)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.6598" d="M0 31.67h31.835v-31.34h40.082"></path>
+</symbol>
 <symbol id="icon-quotes" viewBox="0 0 33 32">
 <path d="M0.4 31.6v-5.472l1.152-0.384c3.648-1.856 5.728-4.928 6.24-9.216l0.096-1.536h-7.008v-14.112h13.92v12.768c0 3.392-0.704 6.368-2.112 8.928-2.88 5.12-6.976 8.128-12.288 9.024zM18.256 31.6v-5.472l1.152-0.384c3.648-1.856 5.728-4.928 6.24-9.216l0.096-1.536h-7.008v-14.112h13.92v12.768c0 3.392-0.704 6.368-2.112 8.928-2.88 5.12-6.976 8.128-12.288 9.024z"></path>
 </symbol>
+
 </defs>
 </svg>
