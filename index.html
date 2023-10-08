@@ -100,17 +100,17 @@
         <div class="container our-service-container">
           <p class="our-service-label caption">What we do</p>
           <h2 class="our-service-title">Our Service</h2>
-          <ul class="our-service-button-list">
-            <li class="our-service-button-item">
-              <button class="our-service-button" type="button">
-                <svg class="our-service-button-icon" width="6" height="12">
+          <ul class="scroll-list">
+            <li class="scroll-item">
+              <button class="scroll-button" type="button">
+                <svg class="scroll-button-icon" width="6" height="12">
                   <use href="./images/icons.svg#icon-left"></use>
                 </svg>
               </button>
             </li>
-            <li class="our-service-button-item">
-              <button class="our-service-button" type="button">
-                <svg class="our-service-button-icon" width="6" height="12">
+            <li class="scroll-item">
+              <button class="scroll-button" type="button">
+                <svg class="scroll-button-icon" width="6" height="12">
                   <use href="./images/icons.svg#icon-right"></use>
                 </svg>
               </button>
@@ -265,37 +265,67 @@
         </div>
       </section>
 
-      <section>
-        <div class="container">
-          <p>Testimonials</p>
-          <h2>Client says about us</h2>
-          <ul>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
+      <!-- Sixth-section-review -->
+
+      <section class="section-review">
+        <div class="container review-container">
+          <p class="review-label caption">Testimonials</p>
+          <h2 class="review-title">Client says about us</h2>
+          <ul class="scroll-list">
+            <li class="scroll-item">
+              <button class="scroll-button" type="button">
+                <svg class="scroll-button-icon" width="6" height="12">
+                  <use href="./images/icons.svg#icon-left"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="scroll-item">
+              <button class="scroll-button" type="button">
+                <svg class="scroll-button-icon" width="6" height="12">
+                  <use href="./images/icons.svg#icon-right"></use>
+                </svg>
+              </button>
+            </li>
           </ul>
-          <ul>
-            <li>
+          <ul class="review-list">
+            <li class="review-item">
               <img
+                class="review-img"
                 src="/images/photo1.jpg"
                 alt="Louis Saville"
                 width="80"
                 height="80"
               />
-              <h3>Louis Saville /CEO at Google inc</h3>
-              <p>
+              <svg class="review-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-quotes"></use>
+              </svg>
+
+              <h3 class="review-subtitle">
+                <span class="review-subtitle-accent">Louis Saville</span> /CEO
+                at Google inc
+              </h3>
+              <p class="review-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </li>
-            <li>
+            <li class="review-item">
               <img
+                class="review-img"
                 src="/images/photo2.jpg"
                 alt="Rekha Varadwaz"
                 width="80"
                 height="80"
               />
-              <h3>Rekha Varadwaz /Manager at Nike inc</h3>
-              <p>
+              <svg class="review-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-quotes"></use>
+              </svg>
+
+              <h3 class="review-subtitle">
+                <span class="review-subtitle-accent">Rekha Varadwaz</span>
+                /Manager at Nike inc
+              </h3>
+              <p class="review-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
@@ -303,9 +333,10 @@
           </ul>
         </div>
       </section>
+
       <section>
         <div class="container">
-          <p>Testimonials</p>
+          <p>Letest news</p>
           <h2>From Our Blog</h2>
           <ul>
             <li>
