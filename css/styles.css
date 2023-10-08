@@ -68,6 +68,8 @@ address {
 .button {
   min-width: 90px;
   height: 30px;
+  padding-left: 18px;
+  padding-right: 18px;
   border-radius: 20px 0px;
   background-color: #37806B;
   color: #FFF;
@@ -447,10 +449,10 @@ address {
 .success {
   padding-top: 55px;
   padding-bottom: 66px;
-  background-color: #F8F8F8;
 }
 
 .success-container {
+  background-color: #F8F8F8;
   position: relative;
 }
 
@@ -645,9 +647,11 @@ address {
 /* Sixth-section-review */
 .section-review {
   padding-top: 103px;
+  padding-bottom: 114px;
 }
 
 .review-container {
+  padding-left: 184px;
   position: relative;
 }
 
@@ -715,4 +719,76 @@ address {
   font-size: 13px;
   font-weight: 400;
   line-height: 1.35;
+}
+
+/* Seventh-section-blog */
+.blog-section {}
+
+.blog-container {
+  padding-top: 58px;
+  padding-bottom: 77px;
+  padding-right: 100px;
+  background-color: #F8F8F8;
+}
+
+.blog-label {
+  text-align: center;
+}
+
+.blog-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 0.55;
+}
+
+.blog-list {
+  display: flex;
+  gap: 95px;
+}
+
+.blog-item {
+  width: calc((100% - 95px * 1) / 2);
+}
+
+.blog-img-container {
+  position: relative;
+  margin-bottom: 37px;
+}
+
+.blog-element {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 346px;
+  height: 242px;
+  border-radius: 100px 0px;
+  border: 2px solid #B0855B;
+}
+
+.blog-img {
+  position: relative;
+  border-radius: 100px 0px;
+  box-shadow: box-shadow: 0px 13px 16px 0px rgba(0, 0, 0, 0.10);
+}
+
+.blog-subtitle {
+  margin-bottom: 11px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0.88;
+}
+
+.blog-text {
+  margin-bottom: 28px;
+  color: #646464;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.blog-item:nth-child(2) .blog-content {
+  padding-left: 18px;
 }
