@@ -53,7 +53,7 @@ address {
   padding-left: 145px;
   padding-right: 145px;
   margin: 0 auto;
-  /* border: 1px solid teal; */
+  border: 1px solid teal;
 }
 
 .caption {
