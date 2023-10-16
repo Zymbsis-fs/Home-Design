@@ -446,12 +446,11 @@ address {
 }
 
 /* Fifth-section-success */
-.success {
-  padding-top: 55px;
-  padding-bottom: 66px;
-}
+.success {}
 
 .success-container {
+  padding-top: 55px;
+  padding-bottom: 66px;
   background-color: #F8F8F8;
   position: relative;
 }
@@ -792,3 +791,55 @@ address {
 .blog-item:nth-child(2) .blog-content {
   padding-left: 18px;
 }
+
+.about-us {
+  background-repeat: no-repeat;
+  background-image: url();
+}
+
+/* Eighth-section-registration */
+.registration-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.registration-title {
+  position: relative;
+  margin-bottom: 51px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 0.58;
+  letter-spacing: 0.08em;
+}
+
+.registration-title::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 288px;
+  height: 1px;
+  background-color: #C4C4C4;
+  bottom: -23px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.registration-text {
+  margin: 0 auto;
+  margin-bottom: 19px;
+  max-width: 470px;
+  text-align: center;
+  color: #646464;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.registration-form {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-input {}
