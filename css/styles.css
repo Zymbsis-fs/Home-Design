@@ -842,4 +842,26 @@ address {
   justify-content: center;
 }
 
-.registration-input {}
+.registration-input {
+  width: 450px;
+  height: 40px;
+  padding-left: 17px;
+  border-top-left-radius: 20px;
+  background-color: #eee;
+  border: none;
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 3.05;
+}
+
+input::placeholder {
+  color: #646464;
+}
+
+.registration-button {
+  width: 150px;
+  height: 40px;
+  border-top-left-radius: 0;
+  text-transform: uppercase;
+}
