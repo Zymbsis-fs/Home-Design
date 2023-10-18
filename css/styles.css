@@ -66,11 +66,11 @@ address {
 }
 
 .button {
-  min-width: 90px;
-  height: 30px;
+  min-width: 150px;
+  height: 40px;
   padding-left: 18px;
   padding-right: 18px;
-  border-radius: 20px 0px;
+  border-radius: 15px 0px;
   background-color: #37806B;
   color: #FFF;
   font-size: 13px;
@@ -175,7 +175,7 @@ address {
 
 .header-navigation-link {
   padding: 5px 5px;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
@@ -302,7 +302,7 @@ address {
   padding-bottom: 21px;
   padding-left: 60px;
   width: calc((100% - 23px * 2) / 3);
-  border-radius: 60px 0;
+  border-radius: 40px 0;
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
 }
 
@@ -846,7 +846,7 @@ address {
   width: 450px;
   height: 40px;
   padding-left: 17px;
-  border-top-left-radius: 20px;
+  border-top-left-radius: 15px;
   background-color: #eee;
   border: none;
   font-family: Raleway;
@@ -860,8 +860,6 @@ input::placeholder {
 }
 
 .registration-button {
-  width: 150px;
-  height: 40px;
   border-top-left-radius: 0;
   text-transform: uppercase;
 }
