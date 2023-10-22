@@ -446,12 +446,13 @@ address {
 }
 
 /* Fifth-section-success */
-.success {}
+.success {
+  background-color: #F8F8F8;
+}
 
 .success-container {
   padding-top: 55px;
   padding-bottom: 66px;
-  background-color: #F8F8F8;
   position: relative;
 }
 
@@ -721,13 +722,14 @@ address {
 }
 
 /* Seventh-section-blog */
-.blog-section {}
+.blog-section {
+  background-color: #F8F8F8;
+}
 
 .blog-container {
   padding-top: 58px;
   padding-bottom: 77px;
   padding-right: 0;
-  background-color: #F8F8F8;
 }
 
 .blog-label {
