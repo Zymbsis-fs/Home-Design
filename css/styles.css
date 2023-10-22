@@ -687,7 +687,7 @@ address {
 .review-img {
   position: absolute;
   left: -40px;
-  border-radius: 35px 0px;
+  border-radius: 20px 0px;
   box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
 }
 
