@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #FFF;
   color: #212121;
+  overflow-x: hidden;
 }
 
 ul {
